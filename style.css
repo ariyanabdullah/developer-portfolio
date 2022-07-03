@@ -11,8 +11,13 @@ h3{
     color: #ffa500;
 }
 
-.first-section{
+.flexible-container{
+
     display: flex;
+    margin-bottom: 100px;
+}
+
+.first-section{
    background-image: url(images/top-banner.png);
    background-repeat: no-repeat;
 }
@@ -43,4 +48,28 @@ h3{
     padding: 8px 28px;
     font-size: 18px;
     border-radius: 9px;
+  }
+  /* second-section */
+  
+  .second-section{
+    
+     background-image: url(images/dream-bg.png) ;
+     background-position: bottom right;
+     background-repeat: no-repeat;
+  }
+  .second-left{
+    width: 50%;
+  }
+
+  .second-left img{
+    width: 110%;
+  }
+
+  .second-right {
+    width: 50%;
+    padding-right: 32px;
+  }
+
+  .second-right h3 {
+    margin-bottom: -1px;
   }
